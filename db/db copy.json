@@ -1,0 +1,39 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "cão",
+      "group": "mamífero",
+      "description": "o cão é o melhor amigo do homem!",
+      "links": {"photo": "https:", "video":"https:", "sound": "https"},
+      "active": true
+
+    },
+    {
+      "id": 2,
+      "name": "gato",
+      "group": "mamífero",
+      "photo": "https://www.royalcanin.es/wp-content/uploads/2017/10/bigotesnew.jpg"
+    },
+    {
+      "id": 3,
+      "name": "pardal",
+      "group": "ave",
+      "photo": "https://cdn.pixabay.com/photo/2019/07/23/00/55/sparrow-4356373_960_720.png"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "João Silva",
+      "birthDate": "12/12/2012",
+      "points": 34,
+      "location": {"city":"porto", "country": "Portugal"},
+      "auth": {"username": "joao", "password": "12345"},
+      "active": true
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
