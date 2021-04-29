@@ -59,6 +59,28 @@ const routes = [
     name: "listUsers",
     component: () => import("@/views/users/ListUsers.vue")
   },
+  // novos
+  {
+    path: "/admin/users",
+    name: "listExperts",
+    component: () => import("@/views/users/ListExperts.vue")
+  },
+  {
+    path: "/admin/users",
+    name: "listSponsors",
+    component: () => import("@/views/users/ListSponsors.vue")
+  },
+  {
+    path: "/admin/users/add",
+    name: "addExpert",
+    component: () => import("@/views/users/AddExpert.vue")
+  },
+  {
+  path: "/admin/users/add",
+  name: "addSponsor",
+  component: () => import("@/views/users/AddSponsor.vue")
+},
+// end
   {
     path: "/admin/users/add",
     name: "addUser",
