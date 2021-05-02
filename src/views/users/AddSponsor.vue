@@ -64,7 +64,7 @@
               <i class="fas fa-plus-square"></i> ADICIONAR
             </button>
             <router-link
-              :to="{name: 'listUsers'}"
+              :to="{name: 'listSponsors'}"
               tag="button"
               class="btn btn-outline-danger btn-lg"
             >
@@ -79,7 +79,7 @@
 </template>
 
 <script>
-import { ADD_USER } from "@/store/users/user.constants";
+import { ADD_SPONSOR } from "@/store/sponsors/sponsor.constants";
 import HeaderPage from "@/components/HeaderPage.vue"
 import router from "@/router";
 import { mapGetters } from "vuex";
